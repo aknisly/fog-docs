@@ -16,6 +16,8 @@ We're assuming that you have a running FOG Server and a machine with a running a
 Change Host name
 ================
 
+.. note:: As of Nov., 2021, this module isn't working with Linux Mint. A work-around is to change the hostname in a post-installation script.
+
 The host name of the machine can be set via the Fog Web UI.
 
 This is often used in combination with deploying an image; after deployment the machine has the computer name as set in the image or by sysprep.
